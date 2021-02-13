@@ -1,0 +1,253 @@
+body {
+    background-color: #171717; 
+    
+}
+.container  {
+    text-align: center;
+    position: relative;
+    left: 0cm; top: 8cm; 
+    color: white;
+    width: 400px;
+    font-family: sans-serif;
+}
+.icon ul{
+    margin: 0%;
+    
+}
+.icon li {
+    display: inline-block;
+    list-style: none;
+    margin: 15px;
+}
+.icon li a {
+    color: rgba(20, 19, 19, 0.479);
+    font-size: 20px;
+    position: relative; top: 8cm; left: 430px;
+    transition: all ease-in-out 250ms;
+}
+.iconB ul{
+    margin: 0%;
+    
+}
+
+.iconB li {
+    display: inline-block;
+    list-style: none;
+    margin: 15px;
+}
+.iconB li a {
+    color: rgb(66, 62, 62);
+    font-size: 20px;
+    position: relative; top: -240px; left: 750px;
+    transition: all ease-in-out 250ms;
+}
+.icon li a.searchh{
+    color: red;
+    position: relative; top: -250px; left: 190px;
+}
+.iconB li a.facebook:hover{
+    color: blue;
+}
+.iconB li a.instagram:hover{
+    color: #d6249f;
+}
+.iconB li a.telegram:hover{
+    color: teal;
+}
+.iconB li a.youtube:hover{
+    color: rgb(255, 4, 4);
+}
+.iconB li a.linkedin:hover{
+    color: rgb(23, 50, 102);
+}
+.iconB li a.twitter:hover{
+    color: rgb(20, 93, 230);
+}
+.iconB li a.book:hover{
+    color: rgb(255, 255, 68);
+}
+
+
+.iconA li {
+    display: inline-block;
+}
+.iconA li a.power {
+    list-style-type: none;
+    font-size: 50px;
+    position: relative; left: 980px; top: -60px;
+    color: rgba(56, 51, 51, 0.603);
+    transition: all ease-in-out 650ms;
+}
+.iconA li a.power:hover {
+    color: red;
+}
+.navbar input.txtSearch {
+    background-color: rgba(19, 18, 18, 0.726);
+    width: 220px; 
+    position: relative; top: -6px;
+}
+.navbar li.nav-item {
+    letter-spacing: 4px;
+    list-style-type: none;
+    background-color: rgba(20, 19, 19, 0.753);
+    width: 150px;
+}
+.navbar li a {
+    color: white;
+}
+.navbar{
+    background-color: #171717;
+}
+
+.navbar .container {
+    position: relative; top: -6px;
+     height: -1x;
+     color: rgb(252, 0, 0);
+     display: inline-block;
+     font-size: 90%;
+     list-style-type: none;
+     
+}
+.navbar ul li {
+    border-style: solid;
+    border-color: rgb(44, 44, 44);
+    border-width: 1px;
+    
+}
+.navbar ul li a {
+    position: relative; top: 5px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 14px;
+    
+}
+
+.navbar li  i.abc{
+    position: relative; top: -25px; left: -50px;
+    
+    
+}
+.navbar li  i.abd{
+    position: relative; top: -25px; left: -50px;
+
+}
+.navbar li  i.abq{
+    position: relative; top: -25px; left: -50px;
+
+}
+.navbar li  i.abw{
+    position: relative; top: -25px; left: -50px;
+
+}
+.navbar li  i.abh{
+    position: relative; top: -25px; left: -50px;
+
+}
+.navbar li  i.abf{
+    position: relative; top: -25px; left: -50px;
+
+}
+.navbar li  i.abj{
+    position: relative; top: -25px; left: -50px;
+
+}
+.navbar li.nav-item:hover{
+   background-color: rgba(46, 43, 43, 0.623);
+}
+
+.hg {
+    position: relative; left: -13cm ; top: 0cm;
+}
+.hg h5.yazı1{
+    font-size: 12px;
+    position: relative; top:20px; left: -40px;
+
+}
+.hg p.yazı {
+    font-size: 12px;
+    position: relative; left:30px;top: -4px;
+    color: red;
+}
+.imgA {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+  position: relative; top: -120px; left: 10px;
+
+}
+.imgA img.resim{
+  display: block;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+.description h6 {
+    font-size: 12px;
+    position: relative; left: 70px; top: -15px;
+    float: left;
+    letter-spacing: 1px;
+}
+.cizgi {
+    position: relative; top: -220px;
+    border-style: solid;
+    border-color:rgba(87,0,0,1);
+    border-width: thin 800px;  
+}
+.logo img {
+    position: relative; top: -500px; left: -450px;
+    
+}
+.cizgiA {
+    position: relative; top: -290px;
+    border-style: solid;
+    border-color:rgba(87,0,0,1);
+    border-width: thin 800px;  
+}
+
+.bildirim::before{
+    background: url(/img/sicons3.png);
+    content: "";
+    width: 44px;
+    height: 39px;
+    position: absolute;
+    top: 200px; left: 1210px;
+    right: 0;
+    color: #bf0101;
+    text-shadow: 1px 1px 10px rgb(191 1 1 / 50%);
+}
+.bildirim  i.info {
+    color: #bf0101;
+    position: relative; top: -300px; left: 780px;
+
+}
+.bildirim div {
+    color: white;
+    position: relative; top: -325px; left: 800px;
+    font-weight: bold;
+}
+.bildirim  p {
+    display: block;
+    color: rgb(187, 186, 184);
+    position: relative; top: -320px; left: 780px;
+    font-size: 15px;
+}
+.cizgiB{
+    position: relative; top: -235px;
+    border-style: solid;
+    border-color:rgba(87,0,0,1);
+    border-width: thin 800px;  
+}
+.kücükR img {
+    position: relative;
+    float: left; top: -580px; left: -440px;
+}
+.logoY {
+    color: white;
+    position: relative; top: -235px; left: 40px;
+}
+.s-user-opener{
+    z-index: -1;
+    position: relative; top: -570px; left: -200px;
+    color: red;
+}
